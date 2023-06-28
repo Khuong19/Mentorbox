@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,7 +17,187 @@
 
 <body>
     <div class="header">
-        <div class="nav-bar">
+        <div class="header-bar-btn" onclick="myFunction()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="header-bar">
+            <div class="nav-bar">
+                <ul class="nav-list" id="js-nav-list">
+                    <li class="nav-item logo">
+                        <a href="#">Mentorbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="register-bar">
+                <ul class="register-list">
+                    <li class="nav-item" id="log-in">
+                        <a href="#">Log in</a>
+                    </li>
+                    <li class="nav-item" id="sign-up">
+                        <a href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--End header-->
+    <div class="img-bg">
+    </div>
+    <img src="/assets/img/Phone Mockup.png" alt="phone-mockup" class="phone-img">
+    <div class="content-box">
+        <div class="heading-box">
+            <h1 class="heading">
+                Learn From The Best
+            </h1>
+            <p class="subheading">
+                Mentorbox connects you with the leading experts in your chosen field.<br>
+                Quickly find and learn from over 200 carefully selected mentors.
+            </p>
+            <button class="heading-btn btn-01">
+                Get Started
+            </button>
+            <button class="heading-btn btn-02">
+                Find Out More
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-content">
+            <div class="container-heading">
+                <h1>The smarter way to learn, connect with the best.</h1>
+            </div>
+            <div class="container-subheading">
+                <p>Everybody needs guidance, and reaching the top levels of any career requires constant education and
+                    personal development. Mentorbox connects you with the top performing experts in your field. You then
+                    book one-on-one or group training with your chosen expert to be carried out online or in-person.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="img-list">
+        <div class="topic-list">
+            <div class="container-content">
+                <div class="container-heading">
+                    <h1>Explore Topics</h1>
+                </div>
+                <div class="container-subheading">
+                    <p>Take a look at some of the most popular areas our students are learning</p>
+                </div>
+            </div>
+            <div class="topic-img-list">
+                <div class="img-item ">
+                    <img src="/assets/img/Rectangle 6.png" alt="topic-img">
+                    <p class="img-name">Cooking</p>
+                </div>
+                <div class="img-item">
+                    <img src="/assets/img/Rectangle 6 (1).png" alt="topic-img">
+                    <p class="img-name">Programming</p>
+                </div>
+                <div class="img-item">
+                    <img src="/assets/img/Rectangle 6 (2).png" alt="topic-img">
+                    <p class="img-name">Fashion</p>
+                </div>
+                <div class="img-item">
+                    <img src="/assets/img/Rectangle 6 (3).png" alt="topic-img">
+                    <p class="img-name">Health & Fitness</p>
+                </div>
+            </div>
+            <div class="arr">
+                <i class="fa-solid fa-caret-right"></i>
+            </div>
+        </div>
+        <div class="mentor-list">
+            <div class="container-content">
+                <div class="container-heading">
+                    <h1>Explore Mentors</h1>
+                </div>
+                <div class="container-subheading">
+                    <p>TTake a look at some of the most popular mentors currently offering their services</p>
+                </div>
+            </div>
+            <div class="topic-img-list">
+                <div class="img-item ">
+                    <img src="/assets/img/Todd Hicks.png" alt="topic-img">
+                    <p class="img-name">Todd Hicks</p>
+                </div>
+                <div class="img-item">
+                    <img src="/assets/img//Ronald Cole.png" alt="topic-img">
+                    <p class="img-name">Ronald Cole</p>
+                </div>
+                <div class="img-item">
+                    <img src="/assets/img/Edith Payne.png" alt="topic-img">
+                    <p class="img-name">Edith Payne</p>
+                </div>
+                <div class="img-item">
+                    <img src="/assets/img/Edwin Dennis.png" alt="topic-img">
+                    <p class="img-name">Edwin Dennis</p>
+                </div>
+            </div>
+            <div class="arr">
+                <i class="fa-solid fa-caret-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slider-content">
+            <div class="container-content">
+                <div class="container-heading slider-heading">
+                    <h1>Robert Thompson, Marketer</h1>
+                </div>
+                <div class="container-subheading slider-subheading">
+                    <p>“I’m absolutely loving Mentor Box. It’s allowed me to connect with a calibre of expert I’d rarely
+                        have the opportunity to meet, and all from my own home.”</p>
+                </div>
+                <div class="slider-icon">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="slider-arr">
+                    <div class="arr right-arr">
+                        <i class="fa-solid fa-caret-right"></i>
+                    </div>
+                    <div class="arr left-arr">
+                        <i class="fa-solid fa-caret-left"></i>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="call-action">
+        <div class="calling-content">
+            <div class="calling-text">
+                Let’s get learning. Sign up and receive 50%
+                off your first session
+            </div>
+            <div class="calling-btn">
+                <button>
+                    Lets Get Learning!
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="nav-footer">
             <ul class="nav-list">
                 <li class="nav-item logo">
                     <a href="#">Mentorbox</a>
@@ -35,70 +216,18 @@
                 </li>
             </ul>
         </div>
-        <div class="register-bar">
-            <ul class="register-list">
-                <li class="nav-item" id="log-in">
-                    <a href="#">Log in</a>
-                </li>
-                <li class="nav-item" id="sign-up">
-                    <a href="#">Sign up</a>
-                </li>
-            </ul>
-        </div>
     </div>
-    <!--End header-->
-    <div class="img-bg">
-    </div>
-    <img src="/assets/img/Phone Mockup.png" alt="phone-mockup" class="phone-img">
-    <div class="content-box">
-        <div class="heading-box">
-            <h1 class="heading">
-                Learn From The Best
-            </h1>
-            <p class="subheading">
-                Mentorbox connects you with the leading experts in your chosen field.<br> 
-Quickly find and learn from over 200 carefully selected mentors.
-            </p>
-            <button class="heading-btn btn-01">
-                Get Started
-            </button>
-            <button class="heading-btn btn-02">
-                Find Out More
-            </button>
-        </div>
-    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("js-nav-list");
+            if (x.className === "nav-list") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-list";
+            }
+        }
+    </script>
 
-    <div class="container">
-        <div class="container-content">
-            <div class="container-heading">
-                <h1>The smarter way to learn, connect with the best.</h1>
-            </div>
-            <div class="container-subheading">
-                <p>Everybody needs guidance, and reaching the top levels of any career requires constant education and personal development. Mentorbox connects you with the top performing experts in your field. You then book one-on-one or group training with your chosen expert to be carried out online or in-person.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="img-list">
-        <div class="topic-list">
-
-        </div>
-        <div class="mentor-list">
-
-        </div>
-    </div>
-
-    <div class="slider">
-
-    </div>
-
-    <div class="call-action">
-
-    </div>
-
-    <div class="footer">
-
-    </div>
 </body>
 
 </html>

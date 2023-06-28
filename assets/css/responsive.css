@@ -1,0 +1,155 @@
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px){
+
+}
+
+/* Mobile phone */
+@media (max-width: 480px) {
+    body{
+        width: 100%;
+    }
+
+    .nav-list li, .register-list li {
+        display: block;
+    }
+
+    .nav-list{
+        height: 55px;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .nav-list .nav-item a{
+        display: block;
+        font-size: 14px;
+    }
+
+    .nav-list .logo a{
+        font-size: 28px;
+    }
+
+    .nav-list.responsive{
+        position: relative;
+        background-color: #f9f9f9;
+        color: black;
+        height: auto;
+        width: 100%;
+        border-radius: 6px;
+        margin-left: 5px;
+    }
+
+    .header-btn.responsive{
+        position: absolute;
+    }
+
+    .nav-list.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+        color: black;
+    }   
+
+    .header-bar-btn{
+        display: inline-block;
+        float: left;
+        color: White;
+        font-size: 24px;
+    }
+
+    .register-bar {
+        display: none;
+    }
+
+    .content-box{
+        left: 15px;
+    }
+
+    .heading-box .heading{
+        font-size: 36px;
+    }
+
+    .heading-box .subheading{
+        margin: 5px auto;
+        font-size: 16px;
+    }
+
+    .btn-01, .btn-02{
+        margin: 16px auto;
+        width: calc(100% - 15px);
+        
+    }
+
+    .img-bg{
+        position: relative;
+        top: 0;
+        height: 680px;
+    }
+
+    .phone-img{
+        display: none;
+    }
+
+    .arr{
+        display: none;
+    }
+
+
+    .container{
+        height: auto;
+    }
+
+    .container-content{
+        line-height: 100px;
+        margin: 32px auto 0 auto;
+    }
+
+    .container-content .container-heading{
+        line-height: 50px;
+        margin-bottom: 32px;
+    }
+    .container-heading h1{
+        font-size: 32px;
+    }
+
+    .container-subheading{
+        margin-bottom: 32px;
+    }
+
+    .slider-content{
+        height: auto;
+    }
+
+    .slider-heading h1{
+        font-size: 18px;
+    }
+
+    .slider-subheading p{
+        font-size: 14px;
+    }
+
+    .call-action{
+        height: 300px;
+    }
+
+    .calling-text, .calling-btn{
+        display: block;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .calling-btn{
+        margin-top: 32px;
+    }
+
+    .calling-btn button{
+        font-size: 18px;
+        padding: 18px 112px;
+    }
+
+    .footer{
+        display: none;
+    }
+}
