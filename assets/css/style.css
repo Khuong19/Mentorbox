@@ -83,7 +83,7 @@ body{
 .img-bg{
     top: -21px;
     position: relative;
-    background-image: url('/assets/img/Photo.png');
+    background-image: url('../assets/img/Photo.png');
     background-position: center;
     background-size: cover;
     height: 780px;
@@ -268,7 +268,7 @@ body{
     padding-top: 64px;
     height: 450px;
     position: relative;
-    background:url('/assets/img/Rectangle\ 5.png');
+    background:url('../assets/img/Rectangle\ 5.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
