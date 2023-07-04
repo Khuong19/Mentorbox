@@ -91,6 +91,11 @@
         display: none;
     }
 
+    .mentor-img-list,
+    .topic-img-list{
+        grid-auto-columns: 100%;
+    }
+
     .arr{
         display: none;
     }

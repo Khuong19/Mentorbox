@@ -213,14 +213,23 @@ body{
 }
 .mentor-img-list,
 .topic-img-list{
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc(100%/4);
     margin: 0 16px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .img-item{
+    margin-left: 16px;
     position: relative;
+}
+
+.img-item img{
+    width: 100%;
 }
 
 .img-item .img-name{
