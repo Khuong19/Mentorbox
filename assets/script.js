@@ -54,3 +54,23 @@ imgList.addEventListener("mousedown", dragStart);
 imgList.addEventListener("mousemove", dragging);
 document.addEventListener("mouseup", dragStop);
 imgList.addEventListener("scroll", infiniteScroll);
+
+
+// Header bar 
+
+const toggleBtn = document.querySelector('.header-bar-btn');
+const toggleBtnIcon = document.querySelector('.header-bar-btn i');
+const dropDownMenu = document.querySelector('.dropdown-menu');
+
+toggleBtn.onclick = function(){
+    dropDownMenu.classList.toggle("open");
+    const isOpen = dropDownMenu.classList.contains("open"); 
+
+    toggleBtnIcon.classList = isOpen
+    ? 'fa-solid fa-xmark'
+    : 'fa-solid fa-bars'
+}
+document.onclick = function(e){
+    if (!toggleBtnIcon.contains(e.target) && (!dropDownMenu.contains(e.target))){
+        dropDownMenu.classList.remove("open");}
+    }

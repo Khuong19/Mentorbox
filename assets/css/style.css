@@ -20,7 +20,6 @@ body{
 }
 
 .header{
-    /* padding-top: 21px; */
     z-index: 1;
     position: relative;
     line-height: 55px;
@@ -33,18 +32,15 @@ body{
     padding: 0 12px;
 }
 
-.header-bar-btn:hover{
-    background-color: #F9F9F9;
-    color: black;
-    border-radius: 8px;
+
+.nav-list{
+    position: relative;
+    right: 25%;
 }
 
 .nav-bar{
-    float: left;
-}
-
-.register-bar{
-    float: right;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-list li, .register-list li{
@@ -61,12 +57,18 @@ body{
     color: white;
 }
 
-.nav-list .logo{
+.logo{
+    float: left;
     font-size: 28px;
     letter-spacing: 0.827px;
     font-weight: 800;
     text-transform: uppercase;
     margin-right: 40px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
 }
 
 #sign-up{
@@ -87,8 +89,39 @@ body{
 	box-shadow: inset 0 0 0 3px #fff;
 }
 
+.dropdown-menu{
+    position: relative;
+    left: 0;
+    display: none;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px; 
+    overflow: hidden;
+    height: 0;
+    transition: 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-menu li a{
+    color:#fff;
+    font-weight: 800;
+}
+
+.dropdown-menu #sign-up{
+    padding: 0 10px;
+}
+
+
+
 .img-bg{
-    top: -21px;
+    top: -55px;
     position: relative;
     background-image: url('/assets/img/Photo.png');
     background-position: center;

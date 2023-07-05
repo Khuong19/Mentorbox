@@ -10,8 +10,12 @@
         width: 100%;
     }
 
+    .header-bar{
+        position: absolute;
+    }
+
     .nav-list li, .register-list li {
-        display: block;
+        display: none;
     }
 
     .nav-list{
@@ -28,39 +32,26 @@
 
     .nav-list .logo a{
         font-size: 28px;
-    }
-
-    .nav-list.responsive{
-        position: relative;
-        background-color: #f9f9f9;
-        color: black;
-        height: auto;
-        width: 100%;
-        border-radius: 6px;
-        margin-left: 5px;
-    }
-
-    .header-btn.responsive{
-        position: absolute;
-    }
-
-    .nav-list.responsive a{
-        float: none;
-        display: block;
-        text-align: left;
-        color: black;
-    }   
+    }  
 
     .header-bar-btn{
-        display: inline-block;
-        float: left;
         color: White;
         font-size: 24px;
+        margin-right: 16px;
     }
 
-    .register-bar {
-        display: none;
+    .dropdown-menu{
+        display: block;
     }
+
+
+    .dropdown-menu.open{
+        height: auto;
+    }
+
+
+
+
 
     .content-box{
         left: 15px;
