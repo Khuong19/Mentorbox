@@ -219,13 +219,35 @@ body{
     grid-auto-columns: calc(100%/4);
     margin: 0 16px;
     text-align: center;
-    overflow: hidden;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
     white-space: nowrap;
+    scroll-behavior: smooth;
+    scrollbar-width: 0;
+}
+
+.topic-img-list .no-transition{
+    scroll-behavior: auto;
+}
+
+.topic-img-list .dragging{
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+}
+
+.topic-img-list .dragging .img-item{
+    cursor: grab;
+    user-select: none;
+}
+
+.topic-img-list::-webkit-scrollbar{
+    display: none;
 }
 
 .img-item{
     margin-left: 16px;
     position: relative;
+    scroll-snap-align: start;
 }
 
 .img-item img{
